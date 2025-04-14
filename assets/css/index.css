@@ -1,0 +1,199 @@
+@font-face{
+    font-family: marvel;
+    src: url('LEMONMILK-Medium.otf') format('opentype')
+}
+body{
+   
+}
+h1{
+    color: white;
+    display: flex;
+    text-align: center;
+    font-size: 70px;
+    background-color: darkgray;
+    width: 550px;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 3px black;
+    height: 150px;
+    width: 750px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/vetores-gratis/arco-de-neon-vermelho-abstrato-fundo-de-brilho-de-luz_107791-28871.jpg?semt=ais_hybrid&w=740);
+    font-family: marvel;
+}
+#menu{
+    border: solid 3px black;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-geometrico-abstrato-futurista-vermelho-escuro-e-preto-3d-moderno_156943-896.jpg);
+}
+#menu a{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+    transition: 1.5s, opacity 1s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 0.2;
+    border: solid ;
+    border-radius: 10px;
+    transform-origin: center;
+    background-color: white;
+    width: 250PX;
+    font-family: marvel;
+}
+#menu a:hover{
+    color: black;
+    font-size: 40px;
+    opacity: 1;
+    transform: scale(1.2);
+}
+.herois{
+    border: solid 3px black;
+    min-height: 70vh;
+}
+#homemferro{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    font-size: 40px;
+    background-image: url(https://img.pikbest.com/backgrounds/20200526/black-backgroundabstract-mat-geometric-grey-color-elegant-futuristic-glossy-light-v_1771859jpg!bw700);
+    font-family: marvel;
+}
+#homemferro img{
+    display: block;
+    margin: auto;
+    width: 80vh;
+    border-radius: 40px;
+    border: solid 3px white;
+}
+#capitaoamerica{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(224, 224, 224);
+    background-image: url(https://img.pikbest.com/backgrounds/20200526/black-backgroundabstract-mat-geometric-grey-color-elegant-futuristic-glossy-light-v_1771859jpg!bw700);
+    font-family: marvel;
+}
+#capitaoamerica img{
+    display: block;
+    margin: auto;
+    width: 40vw;
+    border-radius: 40px;
+    border: solid 3px white;
+}
+#hulk{
+    text-align: center;
+    font-size: 40px;
+    background-image: url(https://img.pikbest.com/backgrounds/20200526/black-backgroundabstract-mat-geometric-grey-color-elegant-futuristic-glossy-light-v_1771859jpg!bw700);
+    font-family: marvel;
+    
+}
+#hulk img{
+    border: solid 3px white;
+    border-radius: 30px;
+    width: 85vh;
+}
+h2{
+    border: solid;
+    display: block;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+}
+div{
+    border-radius: 25px;
+}
+#thor{
+    text-align: center;
+    font-size: 40px;
+    background-image: url(https://img.pikbest.com/backgrounds/20200526/black-backgroundabstract-mat-geometric-grey-color-elegant-futuristic-glossy-light-v_1771859jpg!bw700);
+    font-family: marvel;
+}
+#thor img{
+    width: 35vw;
+    border: solid 3px white;
+    border-radius: 20px;
+}
+#homefer{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 60px;
+    display: flex;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid black;
+    transition: 1s, opacity 1s ease-in-out;
+    opacity: 0.2;
+}
+#homefer:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+#capiame{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 60px;
+    display: flex;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid black;
+    transition: 1s, opacity 1s ease-in-out;
+    opacity: 0.2;
+}
+#capiame:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+#hullk{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 60px;
+    display: flex;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid black;
+    transition: 1s, opacity 1s ease-in-out; 
+    opacity: 0.2;
+}
+#hullk:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+#thoor{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 60px;
+    display: flex;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid black;
+    transition: 1s, opacity 1s ease-in-out;
+    opacity: 0.2;
+}
+#thoor:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
